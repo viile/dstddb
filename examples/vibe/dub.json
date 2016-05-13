@@ -1,0 +1,27 @@
+{
+    "name": "vibe",
+    "description": "Phobos std.database candidate",
+    "homepage": "",
+    "copyright": "Copyright © 2015-, Erik Smith",
+    "authors": [
+        "Erik Smith"
+    ],
+    "sourcePaths": [".", "../src"],
+    "libs" : ["pq","pgtypes"],
+    "dependencies": {
+        "vibe-d:core": "~>0.7.29-alpha.3"
+    },
+    "configurations": [
+    {
+        "name": "library",
+        "targetType": "executable",
+    },
+    {
+        "name": "unittest",
+        "targetType": "executable",
+        "targetName": "unittest",
+        "dflags": ["-main"],
+    },
+    ],
+}
+

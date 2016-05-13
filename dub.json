@@ -6,6 +6,15 @@
     "license": "MIT",
     "targetType": "executable",
     "sourcePaths": ["source"],
-	"libs":["mysqlclient"]
+	"libs":["mysqlclient"],
+    "versions": ["USE_MYSQL","MySQL_51"],
+    "configurations": [
+        {
+            "name": "library",
+            "targetName": "colliedorm",
+            "buildRequirements": [ "allowWarnings" ],
+            "buildOptions": [ "releaseMode" ]
+        }
+    ]
 }
 
