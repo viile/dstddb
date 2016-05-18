@@ -4,6 +4,7 @@
     "copyright": "Copyright © 2015, Erik Smith",
     "authors": ["Erik Smith"],
     "license": "MIT",
+    "targetType": "executable",
     "sourcePaths": ["src"]
 }
 
