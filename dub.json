@@ -4,6 +4,8 @@
     "copyright": "Copyright © 2015, Erik Smith",
     "authors": ["Erik Smith"],
     "license": "MIT",
-    "sourcePaths": ["src"]
+    "targetType": "executable",
+    "sourcePaths": ["source"],
+	"libs":["mysqlclient"]
 }
 
