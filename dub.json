@@ -5,6 +5,7 @@
     "authors": ["Erik Smith"],
     "license": "MIT",
     "targetType": "executable",
-    "sourcePaths": ["src"]
+    "sourcePaths": ["source"],
+	"libs":["mysqlclient"]
 }
 
