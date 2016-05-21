@@ -6,8 +6,6 @@
     "license": "MIT",
     "targetType": "executable",
     "sourcePaths": ["source"],
-<<<<<<< HEAD
-	"libs":["mysqlclient"],
     "versions": ["USE_MYSQL","MySQL_51"],
     "configurations": [
         {
@@ -16,9 +14,7 @@
             "buildRequirements": [ "allowWarnings" ],
             "buildOptions": [ "releaseMode" ]
         }
-    ]
-=======
+    ],
 	"libs":["mysqlclient"]
->>>>>>> 40941f8a06b9d169bacd9524b3703bab0d632b22
 }
 
